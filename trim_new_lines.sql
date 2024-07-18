@@ -1,0 +1,1 @@
+update lessons set description = REGEXP_REPLACE(description, '\s+$', '')

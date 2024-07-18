@@ -1,0 +1,1 @@
+update lessons set description=trim(regexp_replace(description, E'[\\n\\r]+', ' ', 'g' ))
